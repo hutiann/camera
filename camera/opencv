@@ -1,0 +1,4 @@
+$CXX -o open_img  open_img.c -lopencv_highgui -lopencv_imgproc -lopencv_core
+
+
+$CXX -o open_video  open_video.c -lopencv_highgui -lopencv_imgproc -lopencv_core -lopencv_video -lavcodec -lavfilter -lavdevice -lavutil
